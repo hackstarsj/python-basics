@@ -1,5 +1,5 @@
 import sys
-from PyQt5.QtWidgets import  QMainWindow,QApplication,QLineEdit,QPushButton,QTabWidget,QVBoxLayout,QWidget
+from PyQt5.QtWidgets import QMainWindow,QApplication,QLineEdit,QPushButton,QTabWidget,QVBoxLayout,QWidget
 
 app=QApplication(sys.argv)
 
@@ -35,7 +35,7 @@ tablayout2.addWidget(button2)
 tab2.setLayout(tablayout2)
 
 layout.addWidget(tabs)
-qwidget.setLayout(layout)
+#qwidget.setLayout(layout)
 
 mainWindow.setCentralWidget(qwidget)
 mainWindow.show()

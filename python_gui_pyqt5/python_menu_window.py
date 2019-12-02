@@ -13,7 +13,7 @@ mainWindow=QMainWindow()
 mainWindow.resize(300,200)
 
 #creating mainmenu
-mainMenu=mainWindow.menuBar();
+mainMenu=mainWindow.menuBar()
 
 #creating menu Item
 fileMenu=mainMenu.addMenu("File")
