@@ -84,6 +84,7 @@ widget.setLayout(layout)
 
 mainwindow.setCentralWidget(widget)
 
+
 mainwindow.show()
 mainwindow.showMaximized()
 
